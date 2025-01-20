@@ -6,7 +6,7 @@
 //
 import SwiftUI
 
-extension Bundle {
+public extension Bundle {
     func decode<T: Decodable>(
         _ file: String,
         as type: T.Type = T.self,
